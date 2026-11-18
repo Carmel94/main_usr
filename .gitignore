@@ -1,0 +1,17 @@
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+*.token
+secrets/
+credentials*
+
+# Local-only files (sensitive notes, finance, personal)
+local/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.obsidian/workspace*.json
+.vscode/settings.local.json
